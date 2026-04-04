@@ -15,6 +15,7 @@ interface Caption {
 interface VerticalClipProps {
   videoSrc: string;
   captions: Caption[];
+  durationMs: number;
 }
 
 const CaptionOverlay: React.FC<{ text: string }> = ({ text }) => {
