@@ -45,3 +45,9 @@ Thumbs.db
 
 # Remotion
 remotion-bundle/
+
+# Next.js
+next-env.d.ts
+
+# Lockfiles
+package-lock.json
